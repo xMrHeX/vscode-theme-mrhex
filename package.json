@@ -1,0 +1,33 @@
+{
+    "name": "vscode-theme-mrhex",
+    "displayName": "MrHeX Dark",
+    "description": "MrHeX's Dark Theme",
+    "version": "0.0.1",
+    "publisher": "MrHeX",
+    "license": "Apache-2.0",
+    "author": "Ryan Murphy [@xMrHeX]",
+    "icon": "icon.png",
+    "galleryBanner": {
+      "color": "#000000",
+      "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xMrHeX/mrhex-dark-vscode.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "MrHeX Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mrhex.json"
+            }
+        ]
+    }
+}
