@@ -19,7 +19,7 @@
     ],
     "repository": {
       "type": "git",
-      "url": "https://github.com/xMrHeX/mrhex-dark-vscode.git"
+      "url": "https://github.com/xMrHeX/vscode-theme-mrhex.git"
     },
     "contributes": {
         "themes": [
