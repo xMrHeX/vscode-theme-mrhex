@@ -26,7 +26,7 @@
             {
                 "label": "MrHeX Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/mrhex.json"
+                "path": "./themes/mrhex-color-theme.json"
             }
         ]
     }
