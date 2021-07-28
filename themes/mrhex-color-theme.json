@@ -82,7 +82,7 @@
     "dropdown.border": "#B80E0E",
     "dropdown.foreground": "#ff0000",
     // Input
-    "input.background": "#1d1f23",
+    "input.background": "#0c0303",
     "input.border": "#B80E0E",
     "input.foreground": "#ff0000",
     "input.placeholderForeground": "#ff0000",
