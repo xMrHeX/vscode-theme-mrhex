@@ -895,6 +895,72 @@
         "foreground": "#C678DD"
       }
     },
+            // ########################## Begin JSON ########################################################################################################
+    {
+      "name": "JSON Property Name",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#5499FC"
+      }
+    },
+    {
+      "name": "JSON Punctuation for Property Name",
+      "scope": "support.type.property-name.json punctuation",
+      "settings": {
+        "foreground": "#0a7fec"
+      }
+    },
+    {
+      "name": "JSON Constants",
+      "scope": ["constant.language.json"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "JSON Punctuation Separator",
+      "scope": ["punctuation.separator.dictionary.key-value.json"],
+      "settings": {
+        "foreground": "#7cff01"
+      }
+    },
+    {
+      "name": "JSON Dictionary Braces",
+      "scope": [
+          "punctuation.definition.dictionary.begin.json",
+          "punctuation.definition.dictionary.end.json"
+      ],
+      "settings": {
+        "foreground": "#ffee01"
+      }
+    },
+    {
+      "name": "JSON Array Brackets",
+      "scope": [
+          "punctuation.definition.array.begin.json",
+          "punctuation.definition.array.end.json"
+      ],
+      "settings": {
+        "foreground": "#7801ff"
+      }
+    },
+    {
+      "name": "JSON String Quotes",
+      "scope": [
+          "punctuation.definition.string.begin.json",
+          "punctuation.definition.string.end.json"
+      ],
+      "settings": {
+        "foreground": "#ff01ff"
+      }
+    },
+    {
+      "name": "JSON Separator Comma",
+      "scope": ["punctuation.separator.dictionary.pair.json"],
+      "settings": {
+        "foreground": "#ffa601"
+      }
+    },
     {
       "name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
       "scope": ["source.json meta.structure.dictionary.json > string.quoted.json"],
@@ -931,6 +997,8 @@
         "foreground": "#56B6C2"
       }
     },
+            // ########################## End JSON ########################################################################################################
+
     {
       "name": "Meta Attribute Rust",
       "scope": ["meta.attribute.rust"],
@@ -978,20 +1046,6 @@
       "scope": "support.constant",
       "settings": {
         "foreground": "#D19A66"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] JSON Property Name",
-      "scope": "support.type.property-name.json",
-      "settings": {
-        "foreground": "#5499FC"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
-      "scope": "support.type.property-name.json punctuation",
-      "settings": {
-        "foreground": "#e6a938"
       }
     },
     {
@@ -1264,13 +1318,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] JSON Constants",
-      "scope": ["constant.language.json"],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
       "name": "[VSCODE-CUSTOM] JS/TS Object Constants",
       "scope": ["variable.other.constant.object.js", "variable.other.constant.object.jsx", "variable.other.constant.object.ts", "variable.other.constant.object.tsx"],
       "settings": {
@@ -1305,6 +1352,361 @@
         "foreground": "#C678DD"
       }
     },
+
+            // ########################## Begin Terraform Source ########################################################################################################
+    {
+      "name": "Source Terraform source",
+      "scope": ["source.terraform"],
+      "settings": {
+        "foreground": "#09e5f5"
+      }
+    },
+    {
+      "name": "Terraform keyword other",
+      "scope": ["keyword.other.terraform"],
+      "settings": {
+        "foreground": "#145cf7"
+      }
+    },
+    {
+      "name": "Terraform block keyword other",
+      "scope": ["meta.block.terraform keyword.other.terraform"],
+      "settings": {
+        "foreground": "#0afec9"
+      }
+    },
+    {
+      "name": "Source Terraform String",
+      "scope": ["string.value.terraform"],
+      "settings": {
+        "foreground": "#047c85"
+      }
+    },
+    {
+      "name": "Source Terraform String-Template",
+      "scope": ["meta.string-template.terraform"],
+      "settings": {
+        "foreground": "#FE0A67"
+      }
+    },
+    {
+      "name": "Source Terraform Operator",
+      "scope": ["keyword.operator.terraform"],
+      "settings": {
+        "foreground": "#f00606"
+      }
+    },
+    {
+      "name": "Terraform Variable Other assignment",
+      "scope": [
+          "variable.other.assignment.terraform"
+      ],
+      "settings": {
+        "foreground": "#ca31e9"
+      }
+    },
+    {
+      "name": "Terraform Variable other ",
+      "scope": [
+          "variable.other.terraform"
+      ],
+      "settings": {
+        "foreground": "#fe4f0a"
+      }
+    },
+    {
+      "name": "Terraform Braces",
+      "scope": [
+          "source.terraform meta.block.terraform punctuation.definition.block.terraform"
+      ],
+      "settings": {
+        "foreground": "#d0ff00"
+      }
+    },
+    {
+      "name": "Terraform meta.brace.square",
+      "scope": [
+          "meta.brace.square.terraform"
+      ],
+      "settings": {
+        "foreground": "#64f006"
+      }
+    },
+    {
+      "name": "Terraform Constant",
+      "scope": [
+          "constant.language.terraform"
+      ],
+      "settings": {
+        "foreground": "#553b1e"
+      }
+    },
+    {
+      "name": "Terraform interpolation",
+      "scope": [
+          "entity.tag.embedded.start.terraformtemplate",
+          "entity.tag.embedded.end.terraformtemplate"
+      ],
+      "settings": {
+        "foreground": "#e7e429"
+      }
+    },
+    {
+      "name": "Terraform Meta Attr",
+      "scope": [
+          "meta.block.terraform meta.attr.terraform"
+      ],
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+
+
+        // ########################## Begin Terraform Scope ########################################################################################################
+    {
+      "name": "Source Terraform source",
+      "scope": ["scope.terraform"],
+      "settings": {
+        "foreground": "#09e5f5"
+      }
+    },
+    {
+      "name": "Source Terraform meta block",
+      "scope": ["scope.terraform meta.block.terraform"],
+      "settings": {
+        "foreground": "#047c85"
+      }
+    },
+    {
+      "name": "Terraform entity.name.type",
+      "scope": ["scope.terraform meta.block.terraform entity.name.type.terraform"],
+      "settings": {
+        "foreground": "#145cf7"
+      }
+    },
+    {
+      "name": "Terraform punctuation.section.block terraform",
+      "scope": [
+          "scope.terraform meta.block.terraform punctuation.section.block.begin.terraform",
+          "scope.terraform meta.block.terraform punctuation.section.block.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#ecf006"
+      }
+    },
+    {
+      "name": "Terraform Braces",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform punctuation.section.braces.begin.terraform",
+          "scope.terraform meta.block.terraform meta.braces.terraform punctuation.section.braces.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#d0ff00"
+      }
+    },
+    {
+      "name": "Terraform punctuation.section.brackets terraform",
+      "scope": [
+          "scope.terraform meta.block.terraform punctuation.section.brackets.begin.terraform",
+          "scope.terraform meta.block.terraform punctuation.section.brackets.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#64f006"
+      }
+    },
+    {
+      "name": "Terraform punctuation.definition.string terraform",
+      "scope": [
+          "punctuation.definition.string.begin.terraform",
+          "punctuation.definition.string.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#06f08e"
+      }
+    },
+    {
+      "name": "Terraform operator assignment",
+      "scope": [
+          "scope.terraform meta.block.terraform variable.declaration.terraform keyword.operator.assignment.terraform"
+      ],
+      "settings": {
+        "foreground": "#f00606"
+      }
+    },
+    {
+      "name": "Terraform interpolation",
+      "scope": [
+          "scope.terraform meta.block.terraform string.quoted.double.terraform meta.interpolation.terraform keyword.other.interpolation.begin.terraform",
+          "scope.terraform meta.block.terraform string.quoted.double.terraform meta.interpolation.terraform keyword.other.interpolation.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#e7e429"
+      }
+    },
+    {
+      "name": "Terraform String",
+      "scope": [
+          "scope.terraform string.quoted.double.terraform"
+      ],
+      "settings": {
+        "foreground": "#03157a"
+      }
+    },
+    {
+      "name": "Terraform double quoted String",
+      "scope": [
+          "scope.terraform meta.block.terraform string.quoted.double.terraform"
+      ],
+      "settings": {
+        "foreground": "#588ae7"
+      }
+    },
+    {
+      "name": "Terraform braces double quoted String",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform string.quoted.double.terraform"
+      ],
+      "settings": {
+        "foreground": "#FE0A67"
+      }
+    },
+    {
+      "name": "Terraform String Value",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.block.terraform string.quoted.double.terraform"
+      ],
+      "settings": {
+        "foreground": "#FE0A67"
+      }
+    },
+    {
+      "name": "Terraform String Unquoted",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform meta.mapping.key.terraform string.unquoted.terraform"
+      ],
+      "settings": {
+        "foreground": "#922aa7"
+      }
+    },
+    {
+      "name": "Terraform Variable other member",
+      "scope": [
+          "scope.terraform meta.block.terraform variable.other.member.terraform"
+      ],
+      "settings": {
+        "foreground": "#fe4f0a"
+      }
+    },
+    // {
+    //   "name": "Terraform Variable declaration Other readwrite",
+    //   "scope": [
+    //       "scope.terraform meta.block.terraform variable.declaration.terraform variable.other.readwrite.terraform"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#feb10a"
+    //   }
+    // },
+    {
+      "name": "Terraform Variable Other readwrite",
+      "scope": [
+          "scope.terraform variable.other.readwrite.terraform"
+      ],
+      "settings": {
+        "foreground": "#ca31e9"
+      }
+    },
+    {
+      "name": "Terraform Support Constant",
+      "scope": [
+          "scope.terraform meta.block.terraform support.constant.terraform"
+      ],
+      "settings": {
+        "foreground": "#0afe78"
+      }
+    },
+    {
+      "name": "Terraform Constant",
+      "scope": [
+          "scope.terraform meta.block.terraform constant.language.terraform"
+      ],
+      "settings": {
+        "foreground": "#553b1e"
+      }
+    },
+    {
+      "name": "Terraform Label",
+      "scope": [
+          "scope.terraform meta.block.terraform entity.name.label.terraform"
+      ],
+      "settings": {
+        "foreground": "#0afec9"
+      }
+    },
+    {
+      "name": "Terraform Operator Accessor",
+      "scope": [
+          "scope.terraform meta.block.terraform keyword.operator.accessor.terraform"
+      ],
+      "settings": {
+        "foreground": "#fe630a"
+      }
+    },
+    {
+      "name": "Terraform Punctuation Separator",
+      "scope": [
+          "scope.terraform meta.block.terraform punctuation.separator.terraform"
+      ],
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "name": "Terraform Keyword Operator braces",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform keyword.operator.terraform"
+      ],
+      "settings": {
+        "foreground": "#ff002b"
+      }
+    },
+    {
+      "name": "Terraform Keyword Operator heredoc",
+      "scope": [
+          "scope.terraform meta.block.terraform string.unquoted.heredoc.terraform keyword.operator.heredoc.terraform"
+      ],
+      "settings": {
+        "foreground": "#ff8800"
+      }
+    },
+    {
+      "name": "Terraform Keyword Control heredoc",
+      "scope": [
+          "scope.terraform meta.block.terraform string.unquoted.heredoc.terraform keyword.control.heredoc.terraform"
+      ],
+      "settings": {
+        "foreground": "#00ff00"
+      }
+    },
+    {
+      "name": "Terraform Function call",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform meta.function-call.terraform support.function.builtin.terraform"
+      ],
+      "settings": {
+        "foreground": "#124AFB"
+      }
+    },
+    {
+      "name": "Terraform Function call parens",
+      "scope": [
+          "scope.terraform meta.block.terraform meta.braces.terraform meta.function-call.terraform punctuation.section.parens.begin.terraform",
+          "scope.terraform meta.block.terraform meta.braces.terraform meta.function-call.terraform punctuation.section.parens.end.terraform"
+      ],
+      "settings": {
+        "foreground": "#c8fb12"
+      }
+    },
+
     // ########################## Begin Python ########################################################################################################
     {
       "name": "Source Python source",
@@ -1321,6 +1723,14 @@
       }
     },
     {
+      "name": "Python string.quoted.single.single-line.python",
+      "scope": ["source.python string.quoted.single.single-line.python punctuation.definition.string.begin.python",
+                "source.python string.quoted.single.single-line.python punctuation.definition.string.end.python"],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
       "name": "Python comment.line.number-sign.python",
       "scope": ["source.python comment.line.number-sign.python"],
       "settings": {
@@ -1331,7 +1741,7 @@
       "name": "Source Python Keyword Operator Logical Python",
       "scope": ["source.python keyword.operator.logical.python"],
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": "#4751FF"
       }
     },
     {
